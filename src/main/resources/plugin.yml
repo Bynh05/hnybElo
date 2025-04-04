@@ -1,0 +1,15 @@
+name: HnybElo
+version: 1.0.0
+main: hnyb.hnybelo.HnybEloPlugin
+softdepend: [PlaceholderAPI]
+api-version: 1.16
+author: hnyb
+commands:
+  hnybelo:
+    description: Quản lý điểm Elo của người chơi.
+    aliases: [elo]
+    usage: /hnybelo <reload|set|reset|resetall|give>
+permissions:
+  hnybelo.admin:
+    description: Quyền sử dụng các lệnh admin của HnybElo.
+    default: op

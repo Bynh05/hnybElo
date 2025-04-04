@@ -1,0 +1,32 @@
+#    ██╗  ██╗███╗   ██╗██╗   ██╗██████╗     ███████╗██╗      ██████╗
+#    ██║  ██║████╗  ██║╚██╗ ██╔╝██╔══██╗    ██╔════╝██║     ██╔═══██╗
+#    ███████║██╔██╗ ██║ ╚████╔╝ ██████╔╝    █████╗  ██║     ██║   ██║
+#    ██╔══██║██║╚██╗██║  ╚██╔╝  ██╔══██╗    ██╔══╝  ██║     ██║   ██║
+#    ██║  ██║██║ ╚████║   ██║   ██████╔╝    ███████╗███████╗╚██████╔╝
+#    ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝     ╚══════╝╚══════╝ ╚═════╝
+# Báo lỗi, cần giúp đỡ liên hệ Discord Author : bynhvjppro
+# Ủng Hộ Máy Chủ Minecraft Server Author tại :
+#   Discord : dsc.gg/quackmc
+#   PC : quackmc.net PE : quackmc.net (Port : 19132)
+#   Web : https://quackmc.net
+
+# Điểm Elo mặc định khi người chơi tham gia
+default_elo: 100
+
+# Giới hạn kill liên tiếp (khi kill >= 3 sẽ áp dụng cooldown)
+kill_limit: 3
+
+# Thời gian cooldown (tính bằng giây) khi vượt quá kill limit
+cooldown: 86400  # 24 giờ
+
+# Đường dẫn file lưu dữ liệu Elo (nếu cần tùy chỉnh)
+data_file: "plugins/HnybElo/data.txt"
+
+# Message tuỳ chỉnh cho death message
+death_message: "&7<%player_killer%> &7(&a+<%elo_change%>&7) đã giết &7<%player_victim%> &7(&c-<%elo_change%>&7) bằng vũ khí <%weapon%>."
+
+# Menu Top Elo
+menu:
+  title: "&6Top Elo"
+  size: 27
+  item_format: "&eThứ hạng: %rank% - Elo: %elo%"
